@@ -1,8 +1,11 @@
-#! /usr/bin/env node
+#! /usr/bin/env node\
+
+
 import inquirer from "inquirer";
 // 1) Computer will generate a random number
 //2) User input for guessing number  
-//3) Compare user input with computer generated number and show result-done
+//3) Compare user input with computer generated number and show result-done  
+
 console.log("Welcome to Savera's CLI NUMBER GUESSING GAME");
 const randomNumber = Math.floor(Math.random() * 6 + 1);
 const answers = await inquirer.prompt([
