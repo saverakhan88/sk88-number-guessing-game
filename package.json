@@ -1,6 +1,6 @@
 {
-  "name": "sk808-cli-number-guessing-game",
-  "version": "1.0.3",
+  "name": "sk88-cli-number-guessing-game",
+  "version": "2.0.3",
   "description": "This is a CLI NUMBER GUESSING GAME",
   "main": "main.js",
   "type": "module",
